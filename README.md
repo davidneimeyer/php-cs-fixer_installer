@@ -11,16 +11,16 @@ This is a workaround the fact that the offical source does not
 provide a means to validate its sanity, as described in a Homebrew
 [update request] (https://github.com/josegonzalez/homebrew-php/pull/377)
 
-The utility of this script will be void once someond is kind enough to
+The utility of this script will be void once someone is kind enough to
 do one of the following:
 
 * Re-work the logic into a Homebrew formula
-* The upstream provider publishes  a analogous script for the community
+* The upstream provider publishes an analogous script for the community
 
 The latter would be preferred as it would benefit more than just the
 Homebrew community
 
-The phar will be installed to /usr/local/bin/php-cs-fixer.phar with an
+The phar will be installed to `/usr/local/bin/php-cs-fixer.phar` with an
 executable that allows it to be called in a valid shell PATH with
 `php-cs-fixer`
 
